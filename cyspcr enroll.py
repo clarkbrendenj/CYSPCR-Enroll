@@ -301,7 +301,7 @@ filtered_df.to_csv(
     index=False,
 )
 attachment = f"C:/QMS/CYSPCR Enroll/data/cyspcr Enroll {numeric_datetime}.csv"
-body = f"<h2>Patient's with lower respiratory and plasma specimens {five_days_ago} to {yesterday}</h2> <br> <h2>Good Day! Here is the Data you requested!</h2> <br>"
+body = f"<h2>Patient's with lower respiratory and plasma specimens {five_days_ago} to {yesterday}</h2>"
 
 send_email(
     to=[
